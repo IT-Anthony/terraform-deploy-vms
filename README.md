@@ -19,7 +19,7 @@ Ceci est un ensemble de petits scripts permettant de :
 
 ## Installation
 
-![alt text](https://i.imgur.com/MFpRlPw.png)
+![alt text](https://i.imgur.com/dFAHYb7.png)
 
 ## Support
 Ceci n'est qu'un simple essai de ma part, pour découvrir ce que sont Terraform & Cloud-Init, dans le but de réaliser un petit cluster Kubernetes, pour plus d'informations vous pouvez aller voir l'article correspondant sur mon blog (en cours de rédaction).
