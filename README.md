@@ -17,16 +17,16 @@ Ceci est un ensemble de petits scripts permettant de :
 
 ▶️ Exécuter un script bash classique permettant de mettre à jour la VM créée et installer Docker (startup.sh).
 
-# Installation
+## Installation
 
 ![alt text](https://i.imgur.com/MFpRlPw.png)
 
-# Support
+## Support
 Ceci n'est qu'un simple essai de ma part, pour découvrir ce que sont Terraform & Cloud-Init, dans le but de réaliser un petit cluster Kubernetes, pour plus d'informations vous pouvez aller voir l'article correspondant sur mon blog (en cours de rédaction).
 
 Pour ces raisons, aucun support ne sera assuré ce dépôt Github.
 
-# Post-Scriptum
+## Post-Scriptum
 A l'heure où j'écris ces lignes le dépôt vient tout juste d'être créé, et si vous souhaitez d'ores et déjà utiliser ce set de scripts il vous faudra soit modifier le path du script startup.sh vers la fin du script main.tf, soit créer un dossier "Terraform" dans "~/Documents" et l'y déposer. Cela sera corrigé bientôt, peut être, si j'ai le temps 😅
 
 Bien entendu, ce script n'est pas à utiliser en production, pas mal de choses seraient à modifier mais le fonctionnement est bel et bien là !
