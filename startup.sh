@@ -18,9 +18,9 @@ sudo add-apt-repository \
    stable"
    
 # Ajout du dépôt Kubernetes et de la clé puis installation de kubelet/kube-adm/kubenetes-cni
-sudo echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" >> /etc/apt/sources.list.d/kubernetes.list
 sudo curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
-sudo apt-get update && && sleep 10 && sudo apt-get install -y kubelet kubeadm kubernetes-cni
+sudo echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update && sleep 10 && sudo apt-get install -y kubelet kubeadm kubernetes-cni
 
 # Seconde mise à jour des dépôts & installation Docker + paquets de base + démarrage docker au boot
 sleep 30 && sudo apt-get update && sleep 10 && sudo apt -y install docker-ce docker-ce-cli htop vim qemu-guest-agent && sudo systemctl enable docker && sudo systemctl start docker
