@@ -21,10 +21,10 @@ Ceci est un ensemble de petits scripts permettant de :
 
 ![alt text](https://i.imgur.com/dFAHYb7.png)
 
-Plus d'informations sur l'article relatif, disponible ici : [en cours de rédaction]
+Plus d'informations sur l'article relatif, disponible ici : https://notamax.be/proxmox-v6-cluster-k8s-kubeadm-via-terraform-cloud-init/
 
 ## Support
-Ceci n'est qu'un simple essai de ma part, pour découvrir ce que sont Terraform & Cloud-Init, dans le but de réaliser un petit cluster Kubernetes, pour plus d'informations vous pouvez aller voir l'article correspondant sur mon blog (en cours de rédaction).
+Ceci n'est qu'un simple essai de ma part, pour découvrir ce que sont Terraform & Cloud-Init, dans le but de réaliser un petit cluster Kubernetes, pour plus d'informations vous pouvez aller voir l'article correspondant sur mon blog (https://notamax.be/proxmox-v6-cluster-k8s-kubeadm-via-terraform-cloud-init/).
 
 Pour ces raisons, aucun support ne sera assuré ce dépôt Github.
 
