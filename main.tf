@@ -57,13 +57,13 @@ network {
   
   # Déclaration du script de démarrage, en utilisant user it-anthony + clé SSH privée
   provisioner "file" {
-    source      = "~/Documents/Terraform/startup.sh"
+    source      = "startup.sh"
     destination = "/tmp/startup.sh"
       connection {
       type     = "ssh"
       user     = "it-anthony"
-      private_key     = "${file("~/.ssh/id_rsa")}"
-      host     = "${self.ssh_host}"
+      private_key     = file("~/.ssh/id_rsa")
+      host     = self.ssh_host
    }
   }
   # Exécution du script de démarrage
@@ -75,8 +75,8 @@ network {
     connection {
       type     = "ssh"
       user     = "it-anthony"
-      private_key     = "${file("~/.ssh/id_rsa")}"
-      host     = "${self.ssh_host}"
+      private_key     = file("~/.ssh/id_rsa")
+      host     = self.ssh_host
    }
   }
 }
